@@ -1,0 +1,529 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'fontFour';
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F9FAFB;
+}
+
+@font-face {
+    font-family: 'fontOne';
+    src: url(../font/One.woff2);
+}
+
+@font-face {
+    font-family: 'fontTwo';
+    src: url(../font/Two.woff2);
+}
+
+@font-face {
+    font-family: 'fontThree';
+    src: url(../font/Three.woff2);
+}
+
+@font-face {
+    font-family: 'fontFour';
+    src: url(../font/Four.woff2);
+}
+
+/* Style Header */
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.9rem 8.5rem;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.logo img {
+    width: 55px;
+}
+
+.logo h3 {
+    font-size: 1.5rem;
+    font-family: 'fontTwo';
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li {
+    font-family: 'fontOne';
+    font-size: 1.3rem;
+    color:gray;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #df6853;
+}
+
+header .btn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn h4 {
+    font-size: 1.2rem;
+    font-family: 'fontOne';
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.btn h4:hover {
+    color: #df6853;
+}
+
+.btn h4 i {
+    color: #df6853;
+    font-size: 22px;
+}
+
+.btn .signOne, .signTwo {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-family: 'fontTwo';
+    border-radius: 50px;
+    border: none;
+    background-color: #F6E5E2;
+    color: #df6853;
+}
+
+.btn .signOne:hover {
+    background-color: #df6853;
+    color: white;
+}
+
+.btn .signTwo {
+    background-color: #df6853;
+    color: white;
+}
+
+.btn .signTwo:hover {
+    background-color: #F6E5E2;
+    color: #df6853;
+}
+
+/* Style Section Home */
+.sectionHome {
+    width: 100%;
+    padding: 4rem 8.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.right h1 {
+    font-size: 4.5rem;
+    font-family: 'fontOne';
+    line-height: 75px;
+}
+
+.right p {
+    font-family: 'fontFour';
+    color: gray;
+    font-size: 1.1rem;
+    padding: 1.5rem 0;
+}
+
+.right .homeBtnOne, .homeBtnTwo, .cookbtn {
+    padding: 1.2rem 3.2rem;
+    font-size: 20px;
+    font-family: 'fontTwo';
+    color: white;
+    border: 1px solid #df6853;
+    background-color: #df6853;
+    border-radius: 50px;
+}
+
+.right .homeBtnOne:hover {
+    background: none;
+    color: #df6853;
+}
+
+.right .homeBtnTwo {
+    margin-left: 15px;
+    margin-top: 1rem;
+    background: none;
+    color: #df6853;
+}
+
+.right .homeBtnTwo:hover {
+    background-color: #df6853;
+    color: white;
+}
+
+.sectionHome .left {
+    width: 100%;
+    position: relative;
+}
+
+.left img {
+    width: 38rem;
+}
+
+.left .box {
+    width: 250px;
+    background-color: white;
+    box-shadow: 0 5px 7px 3px rgba(81, 81, 81, 0.101);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0.6rem 0.5rem;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+}
+
+.left .box img {
+    width: 65px;
+}
+
+.box h3 {
+    font-size: 15px;
+    color: rgb(49, 49, 49);
+    font-weight: 600;
+}
+
+/* Style Section features */
+.features {
+    width: 100%;
+    padding: 4rem 8.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.features h4 {
+    color: #df6853;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.features h1 {
+    font-size: 3rem;
+    width: 50%;
+    line-height: 50px;
+    padding-top: 1rem;
+    font-family: 'fontTwo';
+}
+
+.boxContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9rem 0;
+}
+
+.boxContainer .card {
+    width: 300px;
+    height: 350px;
+    background:  linear-gradient(#ebeaeacc, #ffffff50);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+}
+
+.card p {
+    color: gray;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.card button {
+    background: none;
+    color: #df6853;
+    font-size: 1.1rem;
+    border: none;
+    font-family: 'fontTwo';
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+.card button:hover {
+    border-bottom: 1px solid #df6853;
+}
+
+.card .cardImg {
+    position: absolute;
+    top: -110px;
+}
+
+.cardImg img {
+    width: 300px;
+}
+
+/* Cooking Style */
+.cooking {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 8.5rem;
+}
+
+.cooking .left h4 {
+    color: #df6853;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 10px;
+}
+
+.cooking .left h1 {
+    font-size: 2.8rem;
+    font-family: 'fontTwo';
+    line-height: 45px;
+    padding: 0.5rem 0;
+}
+
+.cooking .left p {
+    color: gray; 
+    font-size: 1.2rem;
+    padding: 0.5rem 0;   
+}
+
+.cooking .left p:nth-of-type(2) {
+    padding: 1.5rem 0;
+}
+
+.cookbtn:hover {
+    background: none;
+    color: #df6853;
+}
+
+/* Style expert */
+.expert {
+    width: 100%;
+    height: 100vh;
+    background-color: #FBE9E5;
+    position: relative;
+    margin-top: 5rem;
+    padding: 0 8.5rem;
+}
+
+.expert .expertImg {
+    position: absolute;
+    top: -250px;
+    right: 0;
+    width: 30%;
+}
+
+.expert .topbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topbar h4 {
+    color: #df6853;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 10px;
+}
+
+.topbar h1 {
+    font-size: 2.8rem;
+    font-family: 'fontTwo';
+    line-height: 45px;
+    padding: 0.5rem 0;
+}
+
+.slider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+.slider .sliderBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sliderBox img {
+    width: 350px;
+    position: relative;
+}
+
+.sliderBox .linkedin {
+    width: 230px;
+    position: absolute;
+    bottom: 110px;
+    margin-right: -160px;
+}
+
+.sliderBox h2 {
+    font-size: 1.5rem;
+    font-family: 'fontTwo';
+}
+
+.sliderBox h5 {
+    font-size: 1.1rem;
+    color: rgb(141, 139, 139);
+    padding-top: 0.8rem;
+}
+
+/* Style Gallery */
+.gallery {
+    width: 100%;
+    padding: 4rem 8.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery h4 {
+    color: #df6853;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2rem;
+    letter-spacing: 10px;
+}
+
+.gallery h1 {
+    font-size: 2.8rem;
+    font-family: 'fontTwo';
+    line-height: 45px;
+    padding: 0.5rem 0;
+}
+
+.gallery .imgContainer {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 4rem 0;
+}
+
+.leftImg  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.imgBox  {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.leftImg .imgBox img {
+    border-radius: 20px;
+}
+
+
+.boxHover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 25px;
+    display: none;
+
+}
+
+.imgBox:hover .boxHover {
+    background-color: rgba(0, 0, 0, 0.406);
+    display: block;
+}
+
+.boxHover .text {
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+.boxHover .text h3 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.boxHover .text h3 span {
+    font-weight: 300;
+}
+
+.text .price {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0 4rem 0;
+}
+
+.price button {
+    padding: 0.6rem 2rem;
+    background-color: #df6853;
+    border-radius: 100px;
+    border: 1px solid #df6853;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.price button:hover {
+    background-color: #df685377;
+}
+
+.rightImg  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightImg img {
+    border-radius: 20px;
+}

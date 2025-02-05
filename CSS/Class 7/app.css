@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    padding: 2rem 1rem;
+}
+
+/* .box {
+    width: 50%;
+    height: 50%;
+    border: 2px solid red;
+    overflow:scroll;
+} */
+
+/* .container, h1, p, i {
+    color: green;
+} */
+
+/* .container .one p {
+    color: red;
+} */

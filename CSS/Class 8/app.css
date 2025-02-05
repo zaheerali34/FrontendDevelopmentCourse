@@ -1,0 +1,45 @@
+#btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+    transition-delay: 1s;
+    transition-timing-function: ease-out;
+    transition-property: all;
+}
+
+#btn:hover {
+    background-color: blue;
+    color: yellow;
+}
+
+/* .input:focus {
+    background-color: red;
+} */
+
+/* .btn {
+    background: indianred;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}
+
+.btn:active {
+    background-color: yellow;
+} */
+
+/* h1 {
+    color: red;
+}
+
+h1::after {
+    content: ' Hello World';
+    color: green;
+} */
+
+/* .text h1:nth-child(2) {
+    color: blue;
+} */

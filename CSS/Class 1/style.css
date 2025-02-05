@@ -1,0 +1,59 @@
+/* Selectors One */
+/* h1 {
+    color: green;
+} */
+
+/* p {
+    color: red;
+} */
+
+/* Selectors Class */
+/* .colorp {
+    color: blue;
+} */
+
+/* .text {
+    font-size: 50px;
+} */
+
+/* Selectors ID */
+/* #bgColor {
+  background-color: yellow;  
+}
+
+#hello {
+   font-size: 50px; 
+} */
+/* 
+
+div h1 {
+    background-color: yellow;
+} */
+
+/* div h1:last-child {
+    background-color: yellow;
+} */
+
+/* div h1:nth-of-type(2) {
+    color: red;
+} */
+
+div {
+    font-size: 50%;
+}
+
+.fontText {
+    /* font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: underline red;
+    text-align: center;
+    text-transform:capitalize;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+    text-shadow: 0 3px 3px blue; */
+    /* background-color: rgba(255, 25, 0, 0.17); */
+    font-size: 5vh;
+}
+

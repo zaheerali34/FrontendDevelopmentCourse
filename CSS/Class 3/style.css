@@ -1,0 +1,13 @@
+#boxOne {
+    display: grid;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 4px solid yellow;
+    margin-top: 10px;
+    /* display: inline-block; */
+    
+}

@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.header {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.23);
+    padding: 10px 0;
+}
+
+.header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 20px;
+}
+
+.header button {
+    padding: 10px 20px;
+}
+
+.home {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+    border: 10px solid teal;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right .one {
+    width: 100%;
+    height: 50%;
+    background-color: pink;
+    border: 10px solid teal;
+}
+
+.one h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.5rem 0;
+}
+
+.one p {
+    padding: 0 1.5rem;
+    font-size: 1.3rem;
+    color: rgb(32, 32, 32);
+}
+
+.right .two {
+    width: 100%;
+    height: 50%;
+    background-color: pink;
+    border: 10px solid teal;
+    margin-top: 10px;
+}
+
+.two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footerbar {
+    width: 100%;
+    height: 14vh;
+    background-color: brown;
+    border: 10px solid teal;
+}
+
+.footerbar p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+}

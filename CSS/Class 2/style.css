@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .border {
+    border: 10px dashed indigo;     
+} */
+
+/* .box {
+    width: 300px;
+    height: 300px;
+    border: 5px solid green;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    margin-top: 10rem;
+    margin-left: 35rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+} */
+ 
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#ff0000a7, #00000074), url('https://plus.unsplash.com/premium_photo-1720287601920-ee8c503af775?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .boxOne {
+    width: 18.75rem;
+    height: 300px;
+    background-color: blue;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    box-shadow: -10px -10px 20px 10px rgba(0, 0, 0, 0.376);
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    background-color: green;
+} */
