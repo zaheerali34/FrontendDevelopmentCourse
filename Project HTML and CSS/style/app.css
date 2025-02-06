@@ -527,3 +527,213 @@ header .btn {
 .rightImg img {
     border-radius: 20px;
 }
+
+/* style newsletter */
+.newsletter {
+    width: 100%;
+    height: 80vh;
+    padding: 4rem 8.5rem;
+}
+
+.newsletter .bgnews {
+    width: 100%;
+    height: 100%;
+    background-color: #df6853;
+    border-radius: 1.7rem;
+    border-top-right-radius: 400px;
+    padding: 0 8rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bgnews .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    padding: 5rem 0;
+}
+
+.bgnews .left h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.bgnews .left h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'fontTwo';
+    line-height: 45px;
+}
+
+.left .inputBox {
+    width: 100%;
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.inputBox i {
+    color: white;
+    background-color: #111827;
+    padding: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.inputBox i:hover {
+    transform: scale(1.1);
+}
+
+.inputBox input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.bgnews .right {
+    width: 50%;
+    height: 100%;
+}
+
+.bgnews .right .one {
+    position: absolute;
+    top: -7rem;
+    right: -2.5rem;
+}
+
+.bgnews .right .two {
+    position: absolute;
+    top: 12rem;
+    right: -8rem;
+    width: 300px;
+}
+
+.bgnews .right .three {
+    position: absolute;
+    top: 23rem;
+    right: 7rem;
+}
+
+.bgnews .right .four {
+    position: absolute;
+    top: 24rem;
+    right: 12rem;
+    width: 300px;
+}
+
+.bgnews .right .five {
+    position: absolute;
+    bottom: 3rem;
+    right: 35%;
+}
+
+/* style footer */
+footer {
+    width: 100%;
+    height: 75vh;
+    padding: 4rem 8.5rem;
+}
+
+footer .footerflex {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footerLogo .logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footerLogo p {
+    font-size: 0.8rem;
+    width: 70%;
+    padding: 1rem 0;
+}
+
+.footerLogo ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 4rem;
+}
+
+.footerLogo ul i {
+    background-color: white;
+    box-shadow: 0 10px 10px 4px rgba(187, 187, 187, 0.138);
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.footerLogo ul i:hover {
+    background-color: #df6853;
+    color: white;
+}
+
+footer nav  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15rem;
+}
+
+footer nav ul {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer nav ul h3 {
+    font-size: 1.3rem;
+    font-family: 'fontTwo';
+    padding: 1rem 0;
+}
+
+footer nav ul li {
+    font-size: 1rem;
+    font-family: 'fontfour';
+    color: #3f3f3f;
+}
+
+footer .line {
+    border-top: 1px solid rgb(202, 202, 202);
+    margin-top: 8rem;
+}
+
+footer .last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 0;
+}
+
+.last p {
+    color: #3f3f3f;
+    font-size: 0.9rem;
+}
+
+.last ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    font-size: 0.9rem;
+    color: #3f3f3f;
+}
