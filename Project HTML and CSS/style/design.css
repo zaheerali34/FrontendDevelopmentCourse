@@ -1,0 +1,198 @@
+/* Design 1020px */
+@media screen and (max-width: 1020px) {
+  header {
+    padding: 1.9rem 4rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  header .btn button {
+    display: none;
+  }
+
+  .sectionHome {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 2rem;
+  }
+
+  .right h1 {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+
+  .right p {
+    padding: 0.5rem 0;
+    font-size: 15px;
+  }
+
+  .left img {
+    width: 40rem;
+  }
+
+  .features {
+    width: 100%;
+    padding: 6rem 3rem;
+  }
+
+  .features h1 {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+
+  .boxContainer {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 6rem 0;
+  }
+
+  .boxContainer .card {
+    width: 340px;
+    height: 350px;
+  }
+
+  .cooking {
+    width: 100%;
+    flex-direction: column;
+    padding: 4rem 2rem;
+  }
+
+  .cooking .left h1 {
+    font-size: 1.9rem;
+  }
+
+  .expert {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .topbar h1 {
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+
+  .sliderBox img {
+    width: 250px;
+    position: relative;
+  }
+
+  .sliderBox .linkedin {
+    width: 200px;
+    position: absolute;
+    bottom: 140px;
+    margin-right: -10px;
+  }
+
+  .expert .expertImg {
+    display: none;
+  }
+
+  .gallery {
+    width: 100%;
+    padding: 4rem 2rem;
+  }
+
+  .gallery .imgContainer {
+    gap: 20px;
+    padding: 2rem 0;
+    justify-content: center;
+  }
+
+  .leftImg .imgBox img {
+    width: 350px;
+  }
+
+  .rightImg img {
+    width: 350px;
+  }
+
+  .newsletter {
+    width: 100%;
+    height: 60vh;
+    padding: 4rem 2rem;
+  }
+
+  .newsletter .bgnews {
+    border-radius: 1rem;
+    border-top-right-radius: 300px;
+    padding: 0 3rem;
+  }
+
+  .bgnews .left {
+    gap: 15px;
+    padding: 2rem 0;
+  }
+
+  .bgnews .left h2 {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+
+  .bgnews .right .one {
+    position: absolute;
+    top: -5rem;
+    right: 1rem;
+    width: 300px;
+    overflow: hidden;
+  }
+
+  .bgnews .right .two {
+    display: none;
+  }
+
+  .bgnews .right .three {
+    position: absolute;
+    top: 15rem;
+    right: 2rem;
+  }
+
+  .bgnews .right .four {
+    position: absolute;
+    top: 15rem;
+    right: 3rem;
+    width: 300px;
+  }
+
+  footer {
+    padding: 4rem 2rem;
+  }
+
+  .footerLogo .logo h3 {
+    font-size: 20px;
+  }
+
+  footer nav {
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+    header {
+        padding: 1.9rem 1rem;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .logo h3 {
+        font-size: 1rem;
+        font-family: 'fontTwo';
+    }
+
+    .btn h4 {
+        font-size: 0.9rem;
+    }
+
+    .btn h4 i {
+        color: #df6853;
+        font-size: 15px;
+    }
+
+    .right .homeBtnOne, .homeBtnTwo, .cookbtn {
+        width: 100%;
+    }
+
+}
