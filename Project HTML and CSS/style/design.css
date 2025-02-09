@@ -169,30 +169,157 @@
 }
 
 @media screen and (max-width: 415px) {
-    header {
-        padding: 1.9rem 1rem;
-    }
+  header {
+    padding: 1.9rem 1rem;
+  }
 
-    .logo img {
-        width: 40px;
-    }
+  .logo img {
+    width: 40px;
+  }
 
-    .logo h3 {
-        font-size: 1rem;
-        font-family: 'fontTwo';
-    }
+  .logo h3 {
+    font-size: 1rem;
+    font-family: "fontTwo";
+  }
 
-    .btn h4 {
-        font-size: 0.9rem;
-    }
+  .btn h4 {
+    font-size: 0.9rem;
+  }
 
-    .btn h4 i {
-        color: #df6853;
-        font-size: 15px;
-    }
+  .btn h4 i {
+    color: #df6853;
+    font-size: 15px;
+  }
 
-    .right .homeBtnOne, .homeBtnTwo, .cookbtn {
-        width: 100%;
-    }
+  .sectionHome {
+    padding: 1rem 1rem;
+  }
 
+  .right .homeBtnOne,
+  .homeBtnTwo,
+  .cookbtn {
+    width: 100%;
+  }
+
+  .right h1 {
+    font-size: 2rem;
+    line-height: 43px;
+    padding: 0.5rem 0;
+  }
+
+  .sectionHome .left {
+    width: 100%;
+    position: relative;
+    right: 0.5rem;
+  }
+
+  .left img {
+    width: 20rem;
+  }
+
+  .features {
+    padding: 4rem 1rem;
+  }
+
+  .features h1 {
+    font-size: 1.5rem;
+    width: 100%;
+    line-height: 30px;
+    padding-top: 1rem;
+    font-family: "fontTwo";
+  }
+
+  .cooking {
+    padding: 0 1rem;
+  }
+
+  .cooking .right img {
+    width: 100%;
+  }
+
+  .cooking .left p {
+    font-size: 1rem;
+  }
+
+  .expert {
+    padding: 0 1rem;
+  }
+
+  .slider .sliderBox:nth-of-type(2) {
+    display: none;
+  }
+
+  .slider .sliderBox:nth-of-type(3) {
+    display: none;
+  }
+
+  .sliderBox img {
+    width: 380px;
+    position: relative;
+  }
+
+  .sliderBox .linkedin {
+    margin-left: 140px;
+    bottom: 90px;
+  }
+
+  .gallery {
+    padding: 4rem 1rem;
+  }
+
+  .gallery h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .gallery .imgContainer {
+    flex-wrap: wrap;
+  }
+
+  .newsletter {
+    padding: 0rem 0rem;
+  }
+
+  .bgnews .right .one {
+    display: none;
+  }
+
+  .newsletter .bgnews {
+    height: 80%;
+    border-top-right-radius: 250px;
+    padding: 0 2rem;
+  }
+
+  .bgnews .left {
+    width: 100%;
+    padding-top: 3rem;
+  }
+
+  .bgnews .left h2 {
+    font-size: 1.8rem;
+    line-height: 30px;
+  }
+
+  .bgnews .right {
+    display: none;
+  }
+
+  footer {
+    padding: 4rem 1rem;
+    height: 100%;
+  }
+
+  footer .footerflex {
+    flex-direction: column;
+  }
+
+  footer nav {
+    flex-wrap: wrap;
+  }
+
+  
+footer .last  {
+  align-items: start;
+  padding: 0;
+}
 }
