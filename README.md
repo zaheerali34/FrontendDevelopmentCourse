@@ -1,2 +1,0 @@
-# FrontendDevelopmentCourse
-Frontend Development Course
