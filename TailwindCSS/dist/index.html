@@ -8,13 +8,37 @@
 </head>
 <body>
 
-    <div class="w-[25%] h-[5rem] p-4 bg-slate-800 border-1 border-white rounded-xl flex items-center justify-center gap-4">
-        <img src="https://cdn.iconscout.com/icon/free/png-256/free-chat-icon-download-in-svg-png-gif-file-formats--message-communication-chatting-conversation-feedback-pack-business-icons-1794829.png?f=webp&w=256" alt="" class="w-[15%]">
-
-        <div>
-            <h2 class="text-white font-semibold">Chat App</h2>
-            <p class="text-slate-400 pt-2">Lorem ipsum dolor sit amet.</p>
+    <header class="w-full py-[1.5rem] px-[6rem] bg-black shadow-xl flex items-center justify-between text-white max-sm:px-[2rem]">
+        <div class="flex items-center gap-6">
+            <h3 class="text-[1.5rem] font-normal">Uber</h3>
+            <nav class="max-lg:hidden">
+                <ul class="flex items-center">
+                    <li class="py-2 text-center px-6 rounded-2xl hover:bg-[#7b7b7b98] transition-all duration-[0.5s] cursor-pointer">Ride</li>
+                    <li class="py-2 text-center px-6 rounded-2xl hover:bg-[#7b7b7b98] transition-all duration-[0.5s] cursor-pointer">Drive</li>
+                    <li class="py-2 text-center px-6 rounded-2xl hover:bg-[#7b7b7b98] transition-all duration-[0.5s] cursor-pointer">Business</li>
+                    <li class="py-2 text-center px-6 rounded-2xl hover:bg-[#7b7b7b98] transition-all duration-[0.5s] cursor-pointer">Uber Eats</li>
+                    <li class="py-2 text-center px-6 rounded-2xl hover:bg-[#7b7b7b98] transition-all duration-[0.5s] cursor-pointer">About</li>
+                </ul>
+            </nav>
         </div>
+
+        <div class="flex items-center gap-4">
+            <h3 class="max-md:hidden">EM</h3>
+            <h3 class="max-md:hidden">Help</h3>
+            <button>Log in</button>
+            <button class="py-3 px-6 bg-white rounded-3xl text-black font-semibold">Sign up</button>
+        </div>
+    </header>
+
+    <div class="w-full h-screen flex items-center justify-center gap-8 px-[6rem] max-lg:flex-col max-sm:px-[2rem]">
+        <div class="w-2/4 max-lg:w-full max-lg:text-center">
+            <h1 class="text-[4rem] font-bold leading-[60px] max-lg:text-[3rem] max-lg:text-center max-lg:leading-[40px]">Log in to see your recent activity</h1>
+            <p class="py-6">View past trips, tailored suggestions, support resources, and more.</p>
+            <button>Login to your account</button>
+            <p>Don’t have an Uber account? Sign up</p>
+        </div>
+
+        <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,h_768,w_1152/v1730197725/assets/0f/48c7ba-da13-4fdc-b54c-42878042f513/original/Airport-Fall.png" alt="" class="w-2/5 max-lg:w-full">
     </div>
     
 </body>
