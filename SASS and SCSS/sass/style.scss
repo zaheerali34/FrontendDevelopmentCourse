@@ -1,0 +1,45 @@
+@use 'varOne';
+@use 'varTwo';
+
+// .container {
+//     background-color: varOne.$bg-Color;
+//     h2 {
+//         font-size: varOne.$font-H2;
+//     }
+    
+//     p {
+//         color: rgb(255, 0, 0);
+//     }
+
+//     ul {
+//         list-style: none;
+//         li {
+//             font-size: 3rem;
+//             color: varTwo.$color;
+//             font-family: varTwo.$font;
+//         }
+//     }
+
+// }
+
+
+
+// @mixin flex($gap) {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     gap: $gap;
+// }
+
+// .container {
+//     @include flex;
+//     .two {
+//         @include flex(5rem);
+//     }
+// }
+
+.container {
+    h3 {
+        font-size: 5rem - 2rem;
+    }
+}

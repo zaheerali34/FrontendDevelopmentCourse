@@ -122,7 +122,6 @@
 - Setting up environment for  `SCSS`.
 - SCSS or SASS? and Setting Up `SCSS`.
 - Working with SASS :- `Variables` , `Nesting` ,`Partials and Imports` ,`Mixins` ,`Inheritance/Extends` , `Functions` ,`Operators` .
-- Advanced Concepts :- `Control Directives` , `Color Functions` ,
 
 ## 11. Basics of Javascript with ES6+ Features 🚀
 - Introduction to JavaScript, Why it is Important! and What can it do for you?
