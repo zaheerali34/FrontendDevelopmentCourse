@@ -129,11 +129,11 @@
 - Running JavaScript in the Browser Console .
 - Variables and Keywords in Javascript [ `var` , `let` , `const` ].
 - Logging with javascript - [`console.log()` , `console.info()` , `console.warn()` , `prompt` , `alert` ]
+- JavaScript Data Types - [`number` , `string` , `boolean` , `null` , `array` , `object` , `Symbol` , `Undefined` ]
 - Working with String in JS and there -[`splice` , `slice` , `template string` , `split` , `replace` , `includes` ]
 - What are Statement and Semicolons in JS
 - How to add Comments in JavaScript
 - What are Expression in Js and difference between expression and statement
-- JavaScript Data Types - [`float` , `number` , `string` , `boolean` , `null` , `array` , `object` , `Symbol` , `Undefined` ]
 - Some Important Values - [`undefined` , `null` , `NaN` , `Infinity` ]
 - Relative and Primitive Data Type in JavaScript
 - Basic Operators(Arithmetic, Assignment, Increment, Decrement, Comparison, Logical, Bitwise) - [`+` , `-` , `*` , `/` ,`++`  , `--` , `==` , `===` , `!=` ,`and more` ]
