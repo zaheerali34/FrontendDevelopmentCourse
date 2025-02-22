@@ -137,7 +137,6 @@
 - Some Important Values - [`undefined` , `null` , `NaN` , `Infinity` ]
 - Relative and Primitive Data Type in JavaScript
 - Basic Operators(Arithmetic, Assignment, Increment, Decrement, Comparison, Logical, Bitwise) - [`+` , `-` , `*` , `/` ,`++`  , `--` , `==` , `===` , `!=` ,`and more` ]
-- Variable hoisting in JavaScript
 
 ## 12 . Loops & Conditionals in Javascript
 - Understanding Condition Operator in Javascript - [`if` , `else` , `if-else` , `else-if` , `Ternary Operator` , `switch` ]
