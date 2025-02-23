@@ -139,7 +139,7 @@
 - Basic Operators(Arithmetic, Assignment, Increment, Decrement, Comparison, Logical, Bitwise) - [`+` , `-` , `*` , `/` ,`++`  , `--` , `==` , `===` , `!=` ,`and more` ]
 
 ## 12 . Loops & Conditionals in Javascript
-- Understanding Condition Operator in Javascript - [`if` , `else` , `if-else` , `else-if` , `Ternary Operator` , `switch` ]
+- Understanding Condition Operator in Javascript - [`if` , `else` , `else-if` , `Ternary Operator` , `switch` ]
 - `for` Loop in JavaScript
 - `while` Loop in JavaScript
 - `do...while` in JavaScript
