@@ -21,7 +21,7 @@
 // console.log(three);
 
 // Functions on Arrays 
-// let arr = ['HTML', 'CSS', 'JAVASCRIPT'];
+// let arr = ['HTML', 'CSS', 'JavaScript', 'React Js'];
 // push
 // arr.push('React Js');
 
@@ -40,3 +40,49 @@
 // indexOf
 // let a = arr.indexOf('JAVASCRIPT');
 // console.log(a);
+
+// reverse
+// arr.reverse();
+// console.log(a);
+
+// join
+// let a = arr.join(' and and ');
+// console.log(a);
+
+// slice
+// let a = arr.slice(0, 2);
+// console.log(a);
+
+// filter
+// let num = [10, 22, 15, 30];
+// let a = num.filter(function (e) {
+//     return e > 20;
+// });
+
+// console.log(a);
+
+// some
+// let num = [10, 22, 15, 30];
+// let a = num.some(function (e) {
+//     return e > 20;
+// });
+
+// console.log(a);
+
+// let num = [15, 10, 5, 20]
+// let a = num.reduce(function (a, b) {
+//     return a + b;
+// })
+
+// console.log(a);
+
+// toString
+// let arr = [1, 2, 3, 4, 5];
+// let a = arr.toString();
+// console.log(a);
+
+  
+
+
+
+
