@@ -417,10 +417,9 @@
 
 ### Episode 9  Generative AI and Applications 🤖
 - Overview of `Generative AI`: Understanding its core concepts and potential.
-- Building an Authentication System Using `ChatGPT` , `JWT` , `mongoDB` and `redis`.
 - Exploring `Social Media Automation` and `Content Generation` Projects.
 - Introduction to `LangChain`: Features and Practical Uses.
-- Developing Real-World Applications: `AI-powered Resume Reviewer` and `Virtual Interview Assistant` using tools like `ChatGPT` or `Gemini`.
+- Developing Real-World Applications: `AI-powered Resume Reviewer` and `Virtual Interview Assistant` using tools like `ChatGPT` or `Gemini` or `VS Code Ai` or `Cursor AI ` or `https://idx.google.com/`.
 
 ### Episode 10 - Web3 Basics
 - Understanding the concept and potential of `Web3`.
