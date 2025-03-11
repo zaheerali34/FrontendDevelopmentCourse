@@ -1,0 +1,28 @@
+// ====================== Document Object Model ======================
+// let tag = document;
+// let tag = document.body;
+// let tag = document.body.firstChild;
+// let tag = document.body.lastChild;
+// let tag = document.body.firstElementChild; 
+// let tag = document.body.lastElementChild; 
+// console.log(tag);
+
+// const heading = document.getElementById('heading');
+// const pre = document.getElementsByClassName('pre');
+// const btn = document.getElementsByTagName('button');
+// const h1 = document.querySelector('#heading');
+// const item = document.querySelectorAll('ul li');
+// console.log(item);
+
+// innerText, innerHTML, textContent
+// const heading = document.querySelector('#heading');
+// heading.innerHTML = '<p>Web Tech</p>';
+// heading.innerText = 'Welcome';
+// heading.textContent = 'Hello';
+// console.log(heading);
+
+// const heading = document.querySelector('#heading');
+// heading.style.backgroundColor = 'red';
+// heading.style.color = 'yellow';
+// heading.style.padding = '10px'
+
