@@ -26,3 +26,21 @@
 // heading.style.color = 'yellow';
 // heading.style.padding = '10px'
 
+// setAttribute
+// const button = document.querySelector('button');
+// button.setAttribute('id', 'btn');
+// console.log(button);
+// button.style.background = 'red';
+
+// getAttribute
+// const h1 = document.querySelector('#heading');
+// let divElement = document.getElementById("myDiv"); 
+// let print = divElement.getAttribute("class"); 
+// h1.innerHTML = print;
+
+// Create Element
+// const myDiv = document.querySelector('#myDiv');
+// const elem = document.createElement('p');
+// myDiv.appendChild(elem);
+// elem.innerText = 'Create Element';
+
