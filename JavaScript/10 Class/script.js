@@ -1,10 +1,11 @@
+
 // ====================== Document Object Model ======================
 // let tag = document;
 // let tag = document.body;
 // let tag = document.body.firstChild;
 // let tag = document.body.lastChild;
-// let tag = document.body.firstElementChild; 
-// let tag = document.body.lastElementChild; 
+// let tag = document.body.firstElementChild;
+// let tag = document.body.lastElementChild;
 // console.log(tag);
 
 // const heading = document.getElementById('heading');
@@ -34,8 +35,8 @@
 
 // getAttribute
 // const h1 = document.querySelector('#heading');
-// let divElement = document.getElementById("myDiv"); 
-// let print = divElement.getAttribute("class"); 
+// let divElement = document.getElementById("myDiv");
+// let print = divElement.getAttribute("class");
 // h1.innerHTML = print;
 
 // Create Element
@@ -44,3 +45,16 @@
 // myDiv.appendChild(elem);
 // elem.innerText = 'Create Element';
 
+// =============== Event Handeling ===============
+// const btn = document.querySelector('button');
+// const heading = document.querySelector('#heading');
+
+// function getStart() {
+//     console.log('Hello Event');
+// }
+
+// btn.addEventListener('click', function(e) {
+//     heading.style.color = 'red';
+//     console.log(e.clientX);
+//     console.log(e.clientY);
+// });
