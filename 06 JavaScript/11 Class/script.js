@@ -43,3 +43,14 @@
 // failedPromise.catch(function (error){
 //     console.log(error);
 // })
+
+// ================== async and await ==================
+// async function getOne() {
+//     const data = await fetch('https://jsonplaceholder.typicode.com/users');
+//     const print = data.json();
+//     print.then((item)=> {
+//         console.log(item[3].email);
+//     })
+// }
+
+// getOne();
