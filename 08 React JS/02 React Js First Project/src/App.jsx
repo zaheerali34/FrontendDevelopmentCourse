@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import './index.css'
+import Header from "./Header";
+import Home from "./Home";
 
 function App() {
-  return (
-    <div>Hello React Js</div>
+  return(
+    <div>
+      <Header />
+      <Home />
+    </div>
   )
 }
 
-export default App
+export default App;
